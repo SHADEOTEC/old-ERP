@@ -1,0 +1,150 @@
+/*your custom css goes here*/
+.adm_window {
+    z-index: -1;
+    /* opacity: 0.5; */
+}
+
+.adm_window .adm_container {
+    color: black;
+    font-weight: bold;
+    opacity: 1 !important;
+    z-index: 100;
+    /* background-color: maroon; */
+}
+
+.opacity-60 {
+    opacity: 1 !important;
+}
+
+.hide {
+    display: none;
+}
+
+.display_price_box {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+                rgba(0, 0, 0, 0.09) 0px 6px 3px, 
+                rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 10px 5px;
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+}
+
+@media (min-width: 1250px)
+{
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1400px;
+}
+}
+
+.link_hover:hover {
+    text-decoration: underline;
+}
+
+.seller_fab_ul {
+    padding: 0;
+    margin: 50px 20px;
+    list-style: none;
+}
+.seller_fab_ul li {
+    margin: 5px;
+    display: inline-block;
+}
+.seller_fab_ul li a {
+    padding: 5px;
+    display: inline-block;      
+    border: 1px solid #f2f2f2;
+}
+.seller_fab_ul li p {
+    color:maroon;
+}
+.seller_fab_ul li a img {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+.seller_fab_ul li a:hover img {
+    transform: scale(1.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*#cart_table th {
+    vertical-align:middle !important;
+    width: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cart_table td {
+    vertical-align:middle !important;
+}*/
+
+#decqty {
+    text-align: center;
+    padding: 0 3px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+#incqty {
+    text-align: center;
+    padding: 0 3px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* #delord {
+    text-align: center;
+    padding: 2px 5px;
+    margin-left: 15px;
+    font-weight: bold;
+} */
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.makeItHidden {
+    display: none !important;
+}
+.loader-service {
+    width: 100%;
+    height: 100vh;
+    background: #0000009c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader-service i {
+    font-size: 60px;
+    color: #FFF;
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+  
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.min-width-full {
+    min-width: 100%;
+}
+.bulkorder-title {
+    height: 60px;
+    padding-top: 20px;
+}

@@ -1,0 +1,531 @@
+<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Quote Invoice</title>
+        <style>
+            .email-quote-styles .mt6 {
+  margin-top: 6px;
+}
+
+.email-quote-styles .mt12 {
+  margin-top: 12px;
+}
+
+.email-quote-styles .mt18 {
+  margin-top: 18px;
+}
+
+.email-quote-styles .mt24 {
+  margin-top: 24px;
+}
+
+.email-quote-styles .mt30 {
+  margin-top: 30px;
+}
+
+.email-quote-styles .ml6 {
+  margin-left: 6px;
+}
+
+.email-quote-styles .ml12 {
+  margin-left: 12px;
+}
+
+.email-quote-styles .ml18 {
+  margin-left: 18px;
+}
+
+.email-quote-styles .ml24 {
+  margin-left: 24px;
+}
+
+.email-quote-styles .ml30 {
+  margin-left: 30px;
+}
+
+.email-quote-styles .mb6 {
+  margin-bottom: 6px;
+}
+
+.email-quote-styles .mb12 {
+  margin-bottom: 12px;
+}
+
+.email-quote-styles .mb18 {
+  margin-bottom: 18px;
+}
+
+.email-quote-styles .mb24 {
+  margin-bottom: 24px;
+}
+
+.email-quote-styles .mb30 {
+  margin-bottom: 30px;
+}
+
+.email-quote-styles .mr6 {
+  margin-right: 6px;
+}
+
+.email-quote-styles .mr12 {
+  margin-right: 12px;
+}
+
+.email-quote-styles .mr18 {
+  margin-right: 18px;
+}
+
+.email-quote-styles .mr24 {
+  margin-right: 24px;
+}
+
+.email-quote-styles .mr30 {
+  margin-right: 30px;
+}
+
+.email-quote-styles .pt6 {
+  padding-top: 6px;
+}
+
+.email-quote-styles .pt12 {
+  padding-top: 12px;
+}
+
+.email-quote-styles .pt18 {
+  padding-top: 18px;
+}
+
+.email-quote-styles .pt24 {
+  padding-top: 24px;
+}
+
+.email-quote-styles .pt30 {
+  padding-top: 30px;
+}
+
+.email-quote-styles .pl6 {
+  padding-left: 6px;
+}
+
+.email-quote-styles .pl12 {
+  padding-left: 12px;
+}
+
+.email-quote-styles .pl18 {
+  padding-left: 18px;
+}
+
+.email-quote-styles .pl24 {
+  padding-left: 24px;
+}
+
+.email-quote-styles .pl30 {
+  padding-left: 30px;
+}
+
+.email-quote-styles .pb6 {
+  padding-bottom: 6px;
+}
+
+.email-quote-styles .pb12 {
+  padding-bottom: 12px;
+}
+
+.email-quote-styles .pb18 {
+  padding-bottom: 18px;
+}
+
+.email-quote-styles .pb24 {
+  padding-bottom: 24px;
+}
+
+.email-quote-styles .pb30 {
+  padding-bottom: 30px;
+}
+
+.email-quote-styles .pr6 {
+  padding-right: 6px;
+}
+
+.email-quote-styles .pr12 {
+  padding-right: 12px;
+}
+
+.email-quote-styles .pr18 {
+  padding-right: 18px;
+}
+
+.email-quote-styles .pr24 {
+  padding-right: 24px;
+}
+
+.email-quote-styles .pr30 {
+  padding-right: 30px;
+}
+
+.email-quote-styles .size30 {
+  font-size: 30px;
+}
+
+.email-quote-styles .size28 {
+  font-size: 28px;
+}
+
+.email-quote-styles .size26 {
+  font-size: 26px;
+}
+
+.email-quote-styles .size25 {
+  font-size: 25px;
+}
+
+.email-quote-styles .size24 {
+  font-size: 24px;
+}
+
+.email-quote-styles .size22 {
+  font-size: 22px;
+}
+
+.email-quote-styles .size20 {
+  font-size: 20px;
+}
+
+.email-quote-styles .size18 {
+  font-size: 18px;
+}
+
+.email-quote-styles .size17 {
+  font-size: 17px;
+}
+
+.email-quote-styles .size16 {
+  font-size: 16px;
+}
+
+.email-quote-styles .size15 {
+  font-size: 15px;
+}
+
+.email-quote-styles .size14 {
+  font-size: 14px;
+}
+
+.email-quote-styles .size13 {
+  font-size: 13px;
+}
+
+.email-quote-styles .size12 {
+  font-size: 12px;
+}
+
+.email-quote-styles .size11 {
+  font-size: 11px;
+}
+
+.email-quote-styles .b4 {
+  font-weight: 400 !important;
+}
+
+.email-quote-styles .b6 {
+  font-weight: 600 !important;
+}
+
+.email-quote-styles .b8 {
+  font-weight: 800 !important;
+}
+
+.email-quote-styles .tl {
+  text-align: left !important;
+}
+
+.email-quote-styles .tr {
+  text-align: right !important;
+}
+
+.email-quote-styles .tj {
+  text-align: justify !important;
+}
+
+.email-quote-styles .tc {
+  text-align: center !important;
+}
+
+.email-quote-styles .t_uCase {
+  text-transform: uppercase;
+}
+
+.email-quote-styles .t_lCase {
+  text-transform: lowercase;
+}
+
+.email-quote-styles .t_cap {
+  text-transform: capitalize;
+}
+
+.email-quote-styles .centre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.email-quote-styles .verCen {
+  margin: auto;
+}
+
+.email-quote-styles .verAuto {
+  vertical-align: baseline !important;
+}
+
+.email-quote-styles .clear {
+  clear: both;
+}
+
+.email-quote-styles .float_r {
+  float: right;
+}
+
+.email-quote-styles .float_l {
+  float: left;
+}
+
+.email-quote-styles .d_in {
+  display: inline;
+}
+
+.email-quote-styles .d_b {
+  display: block;
+}
+
+.email-quote-styles .d_in_b {
+  display: inline-block;
+}
+
+.email-quote-styles .cl_gdd {
+  color: #5e5873;
+}
+
+.email-quote-styles .cl_gd {
+  color: #777289;
+}
+
+.email-quote-styles .cl_gm {
+  color: #b7b6be;
+}
+
+.email-quote-styles .cl_gl {
+  color: #f3f2f7;
+}
+
+.email-quote-styles body {
+  color: #000000;
+  background-color: #e8e8e8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-quote-styles p {
+  margin: 7px 0px !important;
+}
+
+.email-quote-styles hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.email-quote-styles .body {
+  background-color: #e6e5e5;
+  padding: 50px 0px;
+}
+
+.email-quote-styles .invoce_body {
+  width: 700px;
+  background-color: white !important;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.email-quote-styles .invoice_header > .sec1 {
+  display: inline-block;
+  width: 69.3%;
+  vertical-align: middle;
+}
+
+.email-quote-styles .invoice_header > .sec2 {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.email-quote-styles .invoice_header2 > .sec1 {
+  display: inline-block;
+  width: 49.3%;
+  vertical-align: top;
+}
+
+.email-quote-styles .invoice_header2 > .sec2 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.email-quote-styles .invoice_header2 > .sec2 > .sec1 > p.sec1 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin-top: 0px !important;
+}
+
+.email-quote-styles .invoice_header2 > .sec2 > .sec1 > p.sec2 {
+  display: inline-block;
+  width: 45.5%;
+  vertical-align: top;
+  margin-top: 0px !important;
+}
+
+.email-quote-styles table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.email-quote-styles table th {
+  font-weight: 600;
+  padding: 12px 24px;
+  color: #5d6975;
+  background-color: whitesmoke;
+  text-align: left;
+}
+
+.email-quote-styles th,
+.email-quote-styles td {
+  font-size: 15px;
+  padding: 10px 24px;
+  border-top: 1px solid #ddd;
+}
+
+.email-quote-styles .invoice_footer {
+  margin-top: 80px;
+}
+
+.email-quote-styles .invoice_footer > .sec1 {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+
+.email-quote-styles .invoice_footer > .sec2 {
+  display: inline-block;
+  width: 38%;
+  vertical-align: top;
+}
+
+.email-quote-styles .invoice_footer > .sec2 p.sec1 {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  margin-top: 0px !important;
+}
+
+.email-quote-styles .invoice_footer > .sec2 p.sec2 {
+  display: inline-block;
+  width: 38%;
+  vertical-align: top;
+  margin-top: 0px !important;
+  text-align: right;
+}
+
+.email-quote-styles .bottom_footer {
+  margin-top: 60px;
+}
+
+.email-quote-styles footer {
+  width: 700px;
+  margin: auto;
+}
+
+.email-quote-styles .centerize-elem {
+  text-align: center;
+}
+
+.email-quote-styles .centerize-elem h2 {
+  font-size: 35px;
+  font-family: arial;
+}
+
+.email-quote-styles p.conf-num {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  margin-bottom: 20px !important;
+  color: #d99170;
+}
+
+.email-quote-styles p.raw-msg,
+.email-quote-styles .raw-msg b {
+  font-family: arial, sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.email-quote-styles .raw-msg a {
+  color: #d99170;
+  font-family: arial, sans-serif;
+}
+
+.email-quote-styles .thank-part {
+  margin: 10px 0 !important;
+  font-family: arial, sans-serif;
+}
+
+.email-quote-styles .centerize-elem img {
+  margin: 50px 0 25px;
+  width: 150px;
+  height: auto;
+}
+        </style>
+	
+	
+		<section class="body email-quote-styles">
+
+               
+			<section class="invoce_body">
+				<p style="text-align: center; ">
+					<img class="ml6 logo-img" src="http://shadeotech.local/public/assets/img/logo-big.png" width="200px" height="125px" style="width: 25%;"></p><p style="text-align: center; "><br></p><p style="text-align: center; ">
+				</p>
+
+				<div class="invoice_header pt16 mb16">
+					<div class="centerize-elem">
+						<h2><b>QUOTE INVOICE</b></h2>
+					</div>
+				</div>
+
+				<div class="invoice_header mt24 mb24 pl30 pr30">
+
+					<p class="raw-msg not-editable" contenteditable="false">
+						Hello <b>{{ $data["name"] }}</b><br>
+						
+						{!! $data["message"] !!}
+					</p>
+
+					<p style="margin-left: 25px;">Thank you</p><p style="margin-left: 25px;">@if($data["userType"] == 0) This is a system-generated quote for the invoice to the seller(self). @else This is a system-generated quote invoice from the seller to the client. This is not a confirmation mail. @endif</p><p style="margin-left: 25px;"><br></p>
+                    <p class="not-editable" contenteditable="false">
+                        @if($data["userType"] == 0)
+						<b>Shadeotech Window Fashions</b>
+						@else
+						<b>{{ $seller_name }}</b>
+						@endif
+                    </p>
+				</div>
+			</section>
+		</section>

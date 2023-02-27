@@ -1,0 +1,57 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#e8ebef">
+        <tbody><tr>
+        <td align="center" valign="top" class="container" style="padding:50px 10px;">
+            <!-- Container -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                    <td align="center">
+                        <table width="650" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+                            <tbody><tr>
+                                <td class="td" bgcolor="#ffffff" style="width:650px; min-width:650px; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;text-align:center">
+                                    <!-- Header -->
+
+                                    <img src="http://shadeotech.local/public/assets/img/logo-big.png" width="150px" height="110px" border="0" alt="">
+                                    <!-- END Header -->
+
+                                    <!-- Intro -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                                        <tbody><tr>
+                                            <td class="p30-15" style="padding: 30px 30px 70px 30px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody><tr>
+                                                        <td class="h2 center pb10" style="color:#000000; font-family:'Ubuntu', Arial,sans-serif; font-size:50px; line-height:60px; text-align:center; padding-bottom:10px;"><p>Email Verification</p></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="h5 center blue pb30" style="font-family:'Ubuntu', Arial,sans-serif; font-size:20px; line-height:26px; text-align:center; color:#353535; padding-bottom:30px;"><p style="text-align: left; ">Hello {{$array['name']}}</p><p style="text-align: left; ">Welcome to the Shadeotech</p><p style="text-align: left; "><span style="text-align: center;">We're happy you signed up for the Shadeotech dealer portal. To start exploring Shadeotech's unique products and opportunities, Please click and confirm the below link to connect to your dashboard: <a href="https://erp.shadeotech.com" target="_blank">shadeotech.com</a>.</span></p></td>
+                                                    </tr>
+                                                                                                        <tr>
+                                                        <!--<td class="h5 center pb10" style="color:#000000; font-family:'Ubuntu', Arial,sans-serif; font-size:15px; line-height:60px; text-align:center;">Your account email is: </td>-->
+                                                    </tr>
+                                                    <tr>
+                                                        <!--<td class="h5 center pb10" style="color:#000000; font-family:'Ubuntu', Arial,sans-serif; font-size:15px; line-height:60px; text-align:center; padding-bottom:10px;">Your account password is: </td>-->
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="h5 not-editable center blue pb30" style="font-family:'Ubuntu', Arial,sans-serif; font-size:20px; line-height:26px; text-align:center; color:#2e57ae; padding-bottom:30px;" contenteditable="false">
+                                                            <a href="{{ $array['link'] }}" style="background: #007bff;padding: 0.9rem 2rem;font-size: 0.875rem;color:#fff;border-radius: .2rem;" target="_blank">{{ translate('Click Here') }}</a>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                    <!-- END Intro -->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-footer" style="padding-top: 30px; color:#1f2125; font-family:'Fira Mono', Arial,sans-serif; font-size:12px; line-height:22px; text-align:center;">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            <!-- END Container -->
+        </td>
+    </tr>
+</tbody></table>
